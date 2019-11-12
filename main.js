@@ -31,9 +31,6 @@ var foster_air_temperature = [];
                         }
 
                     }
-                    console.log(foster_air_temperature);
-                    console.log(foster_humidity);
-                    console.log(foster_wind_speed);
                 })
                 .catch(err => {
                     console.log("Error Occurred");
